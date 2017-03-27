@@ -1,7 +1,4 @@
 source 'https://rubygems.org'
-gem 'puma'
-gem 'rails', '4.1.8'
-gem 'sqlite3'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
